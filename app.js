@@ -119,7 +119,7 @@ app.post("/imageUpload",upload.single('ProductImage'),(req,res)=>{
          if(err) console.log(err);
          else{
              console.log("image added to database");
-             res.render("paintings");
+             res.redirect("/imageUpload");
          }
      });
  });
