@@ -92,7 +92,9 @@
         height: 45px;
         width: 130px;
         opacity: 1;
-
+        position: -webkit-sticky;
+        position: sticky;
+        bottom: 1rem;
   }
 
 /* sign in page */
