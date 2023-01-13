@@ -32,7 +32,7 @@ db.connect(function(err) {
         console.log(err);
     } else {
         console.log("Connected!");
-        db.query(`SELECT table_name FROM information_schema.tables WHERE table_schema = 'paintora';`,(err,tables)=>{
+        db.query(`SELECT table_name FROM information_schema.tables WHERE table_schema = 'sql9590329';`,(err,tables)=>{
             // console.log(tables[2].TABLE_NAME);
             for(var i=0;i<tables.length;i++){
                 if(tables[i].TABLE_NAME == "login_cred") flag1 = 1;
