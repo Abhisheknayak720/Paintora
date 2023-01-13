@@ -11,14 +11,14 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(express.static("public"));
 
-// mysql -h mysql-101990-0.cloudclusters.net -P 10157 -u admin -p
+// mysql -h sql9.freemysqlhosting.net -P 3306 -u sql9590329 -p
 
 var db = mysql.createConnection({
-    host: "mysql-101990-0.cloudclusters.net",
-    user: "admin",
-    password: "ng5kGc40",
-    database: "paintora",
-    port: 10157
+    host: "sql9.freemysqlhosting.net",
+    user: "sql9590329",
+    password: "Q46hcmXFRf",
+    database: "sql9590329",
+    port: 3306
 });
 
 
